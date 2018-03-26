@@ -8,4 +8,4 @@ npm install<br/>
 npm run build<br/>
 npm run server<br/>
 
-Application will run on one of the available addresses.
+Application will run on the available addresses.
