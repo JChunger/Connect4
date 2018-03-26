@@ -191,7 +191,7 @@ function createEvents() {
         }
         board_1.isWinner();
         board_2.isWinner();
-        if (board_1._winner == true || board_2._winner == true) {
+        if ((board_1._winner == true || board_2._winner == true) && win == false) {
             win = true;
             end();
         }
@@ -212,7 +212,7 @@ function createEvents() {
         }
         board_1.isWinner();
         board_2.isWinner();
-        if (board_1._winner == true || board_2._winner == true) {
+        if ((board_1._winner == true || board_2._winner == true) && win == false) {
             win = true;
             end();
         }
@@ -233,7 +233,7 @@ function createEvents() {
         }
         board_1.isWinner();
         board_2.isWinner();
-        if (board_1._winner == true || board_2._winner == true) {
+        if ((board_1._winner == true || board_2._winner == true) && win == false) {
             win = true;
             end();
         }
@@ -254,7 +254,7 @@ function createEvents() {
         }
         board_1.isWinner();
         board_2.isWinner();
-        if (board_1._winner == true || board_2._winner == true) {
+        if ((board_1._winner == true || board_2._winner == true) && win == false) {
             win = true;
             end();
         }
@@ -275,7 +275,7 @@ function createEvents() {
         }
         board_1.isWinner();
         board_2.isWinner();
-        if (board_1._winner == true || board_2._winner == true) {
+        if ((board_1._winner == true || board_2._winner == true) && win == false) {
             win = true;
             end();
         }
@@ -296,7 +296,7 @@ function createEvents() {
         }
         board_1.isWinner();
         board_2.isWinner();
-        if (board_1._winner == true || board_2._winner == true) {
+        if ((board_1._winner == true || board_2._winner == true) && win == false) {
             win = true;
             end();
         }
@@ -317,7 +317,7 @@ function createEvents() {
         }
         board_1.isWinner();
         board_2.isWinner();
-        if (board_1._winner == true || board_2._winner == true) {
+        if ((board_1._winner == true || board_2._winner == true) && win == false) {
             win = true;
             end();
         }
