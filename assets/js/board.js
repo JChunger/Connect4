@@ -1,4 +1,4 @@
-export class playerBoard {
+class playerBoard {
 
     constructor() {
         this._board = new Float32Array(48);
@@ -129,3 +129,5 @@ export class playerBoard {
     }
 
 }
+
+module.exports = playerBoard;

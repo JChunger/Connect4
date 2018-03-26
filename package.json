@@ -1,0 +1,25 @@
+{
+  "name": "connect4",
+  "version": "1.0.0",
+  "description": "Connect four game created using PIXI.js",
+  "main": "index.js",
+  "scripts": {
+    "build-js": "browserify assets/js/app.js>build/assets/js/app.js",
+    "build": "npm run build-js",
+    "server": "cd build && python -m SimpleHTTPServer 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JChunger/Connect4.git"
+  },
+  "author": "Jaehyun Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JChunger/Connect4/issues"
+  },
+  "homepage": "https://github.com/JChunger/Connect4#readme",
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "css-loader": "^0.28.11"
+  }
+}
