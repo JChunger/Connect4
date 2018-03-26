@@ -1,11 +1,11 @@
 # Connect4
 Connect four game created using PIXI.js
 
-Run Instructions:in terminal,
-git clone https://github.com/JChunger/Connect4
-cd Connect4
-npm install
-npm run build
-npm run server
+Run Instructions:in terminal,<br/>
+git clone https://github.com/JChunger/Connect4<br/>
+cd Connect4<br/>
+npm install<br/>
+npm run build<br/>
+npm run server<br/>
 
-Application will be running on
+Application will run on one of the available addresses.
