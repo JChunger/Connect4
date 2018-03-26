@@ -6,7 +6,7 @@
   "scripts": {
     "build-js": "browserify assets/js/app.js>build/assets/js/app.js",
     "build": "npm run build-js",
-    "server": "cd build && python -m SimpleHTTPServer 8000"
+    "server": "cd build && npm install -g http-server && http-server"
   },
   "repository": {
     "type": "git",
